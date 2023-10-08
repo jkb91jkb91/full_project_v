@@ -16,7 +16,7 @@ pipeline {
         stage('fetch code') {
             steps {
                     script {
-                     slack.message('success')
+                        knife.printName "haj hej ho"
                  }
                 git branch: 'jenkins_sonar_nexus', url: "https://github.com/jkb91jkb91/vprofile_project/"
             }
