@@ -7,9 +7,9 @@ Stack<br>
 ![Groovy Badge](https://img.shields.io/badge/Groovy-%234298B8?style=for-the-badge&logo=groovy&logoColor=white)<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 
-
-
-
+<br>
+<br>
+<br>
 <b>Dependencies</b>
 vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
 jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
