@@ -8,8 +8,8 @@ Stack<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 
 <b>Dependencies</b>
-vprofile-java-project:  
-jenkins-shared-libraries:
+vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem
+jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries
 ngrok(required for GIT POLL)
 Docker Image: jenkins, nexus, sonarqube
 
@@ -18,6 +18,14 @@ Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins
 Sonarqube: 
 Nexus: 
 
+
+Preparation:
+Jenkins
+- Add slave agent( do not run on master)
+- Install Plugin Slack:                   Configure "Slack"
+- Install Plugin SonarQube Scanner:       Configure ""
+- Install Plugin Nexus Artifact Uploader: Configure 
+- Configure  "Global Pipeline Libraries"
 
 
 Author:Jakub Grzegorczyk
