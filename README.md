@@ -8,7 +8,7 @@
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 ![docker-compose](https://img.shields.io/badge/-docker--compose-blue) <br>
 
-<b>Dependencies</b> <br>
+<b>Dependencies</b>
 - vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
 - jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
 - ngrok isntalled          (required for GitHub hook trigger for GITScm polling)  <br>
