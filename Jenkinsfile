@@ -63,14 +63,13 @@ pipeline {
  //           }
  //       }
 
-        stage('Send to ') {
+        stage('Send to slack') {
             steps {
                   script {
                      slack.message('success')
               }
-            }
+          }
      }
-    
 
         stage('Upload Artifacts') {
             steps {
