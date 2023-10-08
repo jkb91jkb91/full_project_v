@@ -8,10 +8,10 @@ Stack<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 
 <b>Dependencies</b>
-vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem
-jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries
-ngrok(required for GIT POLL)
-Docker Image: jenkins, nexus, sonarqube
+vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem <br>
+jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries <br>
+ngrok(required for GIT POLL) <br>
+Docker Image: jenkins, nexus, sonarqube <br>
 
 <b>Installation:</b>
 Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins_docs:/var/jenkins_home jenkins/jenkins:lts <br>
