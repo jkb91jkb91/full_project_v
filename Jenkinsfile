@@ -64,9 +64,11 @@ pipeline {
  //       }
 
         stage('Send to ') {
-              script {
-                 sh 'echo somethin'
-          }
+            steps {
+                  script {
+                     sh 'echo somethin'
+              }
+            }
      }
     
 
