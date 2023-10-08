@@ -30,15 +30,24 @@
 
 <b>Detailed steps</b> 
 - Add slave agent( do not run on master)  <br>
+
 - Install Plugin Slack  <br>
 - Install Plugin SonarQube Scanner<br>
 - Install Plugin Nexus Artifact Uploader  <br>
-- Start ngrok http 8080 <br>
+
 - Jenkins Credentials github keys to credentials <br>
+- Jenkins Credentials add token from sonar
+- 
 - Jenkins Configure   Sonar (http://sonar:9000/ : "sonar" is the name used in docker-compose, - sonarToken_<br>
 - Jenkins Configure   Nexus
-- Jenkins Configure   Global Pipeline Libraries
 - Jenkins Configure   Slack
+
+- Jenkins Configure   Global Pipeline Libraries
+  
+- Start ngrok http 8080 <br>
+- Jenkins create pipeline JOB and set GIt Poll SCM
+- Github create Webhook based on ngrok URL
+
 
 
 
