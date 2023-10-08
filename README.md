@@ -51,6 +51,13 @@
 
 
 
+NEXT STEPS
+1) Dodaj agenta
+2) pomysl nad ssh key jak dodac
+3) ogarnij sonara
+4) ogarnij nexusa
+
+
 
 
 
