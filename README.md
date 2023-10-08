@@ -14,7 +14,7 @@ ngrok(required for GIT POLL)
 Docker Image: jenkins, nexus, sonarqube
 
 <b>Installation:</b>
-Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins_docs:/var/jenkins_home jenkins/jenkins:lts<br>
+Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins_docs:/var/jenkins_home jenkins/jenkins:lts <br>
 Sonarqube: <br>
 Nexus: <br>
 
