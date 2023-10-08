@@ -9,17 +9,13 @@ Stack<br>
 ![docker-compose](https://img.shields.io/badge/-docker--compose-blue) <br>
 
 <b>Dependencies</b> <br>
-Repositories <br>
 - vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
 - jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
-Installation <br>
 - ngrok isntalled          (required for GitHub hook trigger for GITScm polling)  <br>
 - docker-compose installed (required for create network between jenkins,nexus,sonarqube) <br>  
-Docker Images <br>
 - Dockerfile.jenkins <br>
 - Dockerfile.sonarqube <br>
 - Dockerfile.nexus <br>
-Docker Compose <br>
 - docker-compose.yml  <br>
 
 <br>
