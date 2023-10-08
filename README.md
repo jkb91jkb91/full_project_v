@@ -27,8 +27,7 @@ Docker Images <br>
 <br>
 <br>
 
-
-<b>Installation:</b> <br>
+<b>Installation</b> <br>
 docker-compose up -d  <br>
 
 <br>
