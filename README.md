@@ -15,7 +15,7 @@ vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:
 jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
 ngrok(required for GIT POLL)  <br>
 Docker Image: jenkins, nexus, sonarqube  <br>
-
+<br>
 <b>Installation:</b> <br>
 Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins_docs:/var/jenkins_home jenkins/jenkins:lts <br>
 Sonarqube: <br>
