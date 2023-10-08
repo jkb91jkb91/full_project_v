@@ -22,7 +22,7 @@ pipeline {
         stage('Build') {
             steps {
             script{
-                    mavenBuild.run()
+                    mavenBuild.execute()
             }
             }
             post {
@@ -35,7 +35,7 @@ pipeline {
         stage('Unit tests') {
             steps {
                 script {
-                    mavenUnitTests.run()
+                    mavenUnitTests.execute()
                 }
             }
         }
