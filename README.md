@@ -38,10 +38,10 @@ docker-compose up -d  <br>
 - Install Plugin Slack
 - Install Plugin SonarQube Scanner<br>
 - Install Plugin Nexus Artifact Uploader
+ <br>
 
 
-
-Detailed steps <br>
+<b>Detailed steps</b> <br>
 - Start ngrok http 8080 <br>
 - Jenkins Credentials github keys to credentials <br>
 - Jenkins Configure   Sonar (http://sonar:9000/ : "sonar" is the name used in docker-compose, - sonarToken_<br>
