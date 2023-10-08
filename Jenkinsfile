@@ -73,7 +73,7 @@ pipeline {
             }
         }
 
-        stage('Code Analysis') {
+        stage('Upload Artifacts') {
             steps {
                 script {
                     tool name: 'OracleJDK11', type: 'hudson.model.JDK'
