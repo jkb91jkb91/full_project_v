@@ -20,7 +20,7 @@
 <br>
 
 <b>Installation</b> <br>
-docker-compose up -d  <br>
+- docker-compose up -d  <br>
 
 <br>
 <b>Preparation</b>
