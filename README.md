@@ -17,8 +17,6 @@
 - Dockerfile.sonarqube <br>
 - Dockerfile.nexus <br>
 - docker-compose.yml  <br>
-
-<br>
 <br>
 
 <b>Installation</b> <br>
