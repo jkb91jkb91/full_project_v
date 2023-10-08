@@ -47,5 +47,5 @@ Email: jakub.g26101991@gmail.com <br>
 
 
 Detailed steps <br>
-ngrok http 8080
-
+- start ngrok http 8080 <br>
+- Jenkins-adding github keys to credentials <br>
