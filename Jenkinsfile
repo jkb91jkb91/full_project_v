@@ -5,12 +5,12 @@ pipeline {
     tools {
         maven "MAVEN3"
     }
+    
   environment {
     JDK_VERSION = 'OracleJDK8'
     JAVA_HOME = '/usr/local/jdk8'
     SONAR_TOKEN = credentials('sonarToken')
 }
-
 
     stages {
         stage('fetch code') {
@@ -18,11 +18,11 @@ pipeline {
                 git branch: 'jenkins_sonar_nexus', url: "https://github.com/jkb91jkb91/vprofile_project/"
             }
         }
-
-        stage('Build and Test') {
+        
+        stage('Build') {
             steps {
               
-                sh 'export JAVA_HOME=$JAVA_HOME' // Ustawienie JAVA_HOME na JDK 8
+                sh 'export JAVA_HOME=$JAVA_HOME'
                 echo "${env.PRINT_OK}"
                 sh 'mvn --version'
                 sh 'mvn install -DskipTests'
@@ -33,12 +33,12 @@ pipeline {
                 }
             }
         }
-
+        
         stage('Unit tests') {
             steps {
                 script {
                     tool name: env.JDK_VERSION, type: 'hudson.model.JDK'
-                    sh 'export JAVA_HOME=$JAVA_HOME_8' // Ustawienie JAVA_HOME na JDK 8
+                    sh 'export JAVA_HOME=$JAVA_HOME_8'
                     sh 'mvn test'
                 }
             }
@@ -62,10 +62,7 @@ pipeline {
                                 -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml \
                                 -Dsonar.login=\$SONAR_TOKEN
                             """
-                        }
-                    
-                  
-                    
+                    }
                 }
             }
         }
