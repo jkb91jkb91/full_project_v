@@ -37,7 +37,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Unit tests') {
             steps {
                 script {
                     tool name: env.JDK_VERSION, type: 'hudson.model.JDK'
