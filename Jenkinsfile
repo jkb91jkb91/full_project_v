@@ -66,7 +66,7 @@ pipeline {
         stage('Send to ') {
             steps {
                   script {
-                     sh 'echo somethin'
+                     slack.message('success')
               }
             }
      }
