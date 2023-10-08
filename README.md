@@ -14,12 +14,12 @@ Stack<br>
 Repositories <br>
 vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
 jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
-
-Installation <br>
+<br>
+Installation 
 ngrok isntalled (required for GIT POLL)  <br>
 docker-compose installed <br>
-
-Docker Images <br>
+<br>
+Docker Images 
 - Dockerfile.jenkins <br>
 - Dockerfile.sonarqube <br>
 - Dockerfile.nexus <br>
