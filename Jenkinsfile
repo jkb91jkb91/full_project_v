@@ -37,6 +37,12 @@ pipeline {
                 script {
                     mavenUnitTests.execute()
                 }
+            
+            } 
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
             }
         }
 
