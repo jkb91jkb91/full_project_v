@@ -8,7 +8,8 @@ Stack<br>
 ![Groovy Badge](https://img.shields.io/badge/Groovy-%234298B8?style=for-the-badge&logo=groovy&logoColor=white)<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 
-Dependencies:
+<span style="color:darkyellow">Dependencies:</span>
+
 vprofile-java-project:  
 jenkins-shared-libraries:
 ngrok(required for GIT POLL)
