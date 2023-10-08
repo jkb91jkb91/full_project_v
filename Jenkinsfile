@@ -22,9 +22,9 @@ pipeline {
         stage('Build') {
             steps {
               
-                sh 'export JAVA_HOME=$JAVA_HOME'
-                echo "${env.PRINT_OK}"
-                sh 'mvn --version'
+                #sh 'export JAVA_HOME=$JAVA_HOME'
+                #echo "${env.PRINT_OK}"
+                #sh 'mvn --version'
                 sh 'mvn install -DskipTests'
             }
             post {
