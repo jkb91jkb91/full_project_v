@@ -19,7 +19,7 @@
 - docker-compose.yml  <br>
 <br>
 
-<b>Installation</b> <br>
+<b>Installation</b>
 - docker-compose up -d  <br>
 
 <br>
