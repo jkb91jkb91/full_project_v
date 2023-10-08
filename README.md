@@ -33,11 +33,11 @@ Docker Compose <br>
 docker-compose up -d  <br>
 
 <br>
-<b>Preparation</b> <br>
-- Add slave agent( do not run on master)
-- Install Plugin Slack
+<b>Preparation</b>
+- Add slave agent( do not run on master)  <br>
+- Install Plugin Slack  <br>
 - Install Plugin SonarQube Scanner<br>
-- Install Plugin Nexus Artifact Uploader
+- Install Plugin Nexus Artifact Uploader  <br>
  <br>
 
 
