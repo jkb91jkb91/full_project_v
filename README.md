@@ -17,7 +17,7 @@ Repositories <br>
 - vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
 - jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
 Installation <br>
-- ngrok isntalled          (required for GIT POLL)  <br>
+- ngrok isntalled          (required for GitHub hook trigger for GITScm polling)  <br>
 - docker-compose installed (required for create network between jenkins,nexus,sonarqube) <br>  
 Docker Images <br>
 - Dockerfile.jenkins <br>
