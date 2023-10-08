@@ -7,6 +7,7 @@
 ![Groovy Badge](https://img.shields.io/badge/Groovy-%234298B8?style=for-the-badge&logo=groovy&logoColor=white)<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 ![docker-compose](https://img.shields.io/badge/-docker--compose-blue) <br>
+![Blue Ocean](https://img.shields.io/badge/-Blue%20Ocean-blue)
 
 <b>Dependencies</b>
 - vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
