@@ -15,9 +15,6 @@ pipeline {
     stages {
         stage('fetch code') {
             steps {
-                    script {
-                        knife.printName "haj hej ho"
-                 }
                 git branch: 'jenkins_sonar_nexus', url: "https://github.com/jkb91jkb91/vprofile_project/"
             }
         }
