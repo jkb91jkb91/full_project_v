@@ -1,6 +1,4 @@
 <b>SIMPLE CI FOR JAVA APP</b>
-<span style="font-size: 2em;">Twój tekst tutaj</span>
-
 
 
 Stack<br>
