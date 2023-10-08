@@ -23,7 +23,7 @@
 - docker-compose up -d  <br>
 
 <br>
-<b>Preparation</b>
+<b>Preparation</b> <br>
 - Add slave agent( do not run on master)  <br>
 - Install Plugin Slack  <br>
 - Install Plugin SonarQube Scanner<br>
