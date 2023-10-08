@@ -21,7 +21,7 @@ Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins
 Sonarqube: <br>
 Nexus: <br>
 
-
+<br>
 <b>Preparation</b> <br>
 Jenkins <br>
 - Add slave agent( do not run on master)
