@@ -40,6 +40,8 @@ Jenkins <br>
 - Install Plugin SonarQube Scanner:<br>
    - http://sonar:9000/ : "sonar" is the name used in docker-compose<br>
    - sonarToken<br>
+   Tekst&nbsp;&nbsp;&nbsp;&nbsp;Tekst po wcięciu
+
 - Install Plugin Nexus Artifact Uploader: Configure "Nexus"
 - Configure  "Global Pipeline Libraries"
 
