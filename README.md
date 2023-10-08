@@ -19,8 +19,8 @@ Sonarqube: <br>
 Nexus: <br>
 
 
-<b>Preparation</b>
-Jenkins
+<b>Preparation</b> <br>
+Jenkins <br>
 - Add slave agent( do not run on master)
 - Install Plugin Slack:                   Configure "Slack"
 - Install Plugin SonarQube Scanner:       Configure "Sonarqube"
@@ -28,5 +28,5 @@ Jenkins
 - Configure  "Global Pipeline Libraries"
 
 
-Author:Jakub Grzegorczyk
-Email: jakub.g26101991@gmail.com
+Author:Jakub Grzegorczyk <br>
+Email: jakub.g26101991@gmail.com <br>
