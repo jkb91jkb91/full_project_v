@@ -1,3 +1,5 @@
+@Library('shared_library') _
+
 pipeline {
     agent any
     tools {
@@ -13,6 +15,9 @@ pipeline {
     stages {
         stage('fetch code') {
             steps {
+                    script {
+                     slack.message('success')
+                 }
                 git branch: 'jenkins_sonar_nexus', url: "https://github.com/jkb91jkb91/vprofile_project/"
             }
         }
