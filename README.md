@@ -23,6 +23,8 @@ Docker Images <br>
 - Dockerfile.jenkins <br>
 - Dockerfile.sonarqube <br>
 - Dockerfile.nexus <br>
+Docker Compose <br>
+- docker-compose.yml  <br>
 
 <br>
 <br>
@@ -42,3 +44,8 @@ Jenkins <br>
 
 Author:Jakub Grzegorczyk <br>
 Email: jakub.g26101991@gmail.com <br>
+
+
+Detailed steps <br>
+ngrok http 8080
+
