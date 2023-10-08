@@ -8,9 +8,6 @@ Stack<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 ![docker-compose](https://img.shields.io/badge/-docker--compose-blue) <br>
 
-
-<br>
-<br>
 <br>
 <b>Dependencies</b> <br>
 Repositories <br>
