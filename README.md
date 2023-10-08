@@ -53,5 +53,5 @@ docker-compose up -d  <br>
 
 
 
-Author:Jakub Grzegorczyk <br>
-Email: jakub.g26101991@gmail.com <br>
+<b>Author:Jakub Grzegorczyk </b> <br>
+<b>Email: jakub.g26101991@gmail.com </b> <br>
