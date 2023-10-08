@@ -19,7 +19,7 @@ Installation
 ngrok isntalled (required for GIT POLL)  <br>
 docker-compose installed <br>
 <br>
-Docker Images 
+Docker Images <br>
 - Dockerfile.jenkins <br>
 - Dockerfile.sonarqube <br>
 - Dockerfile.nexus <br>
