@@ -1,4 +1,5 @@
 <b>SIMPLE CI FOR JAVA APP</b>
+<span style="font-size: 2em;">Twój tekst tutaj</span>
 
 
 
@@ -8,14 +9,13 @@ Stack<br>
 ![Groovy Badge](https://img.shields.io/badge/Groovy-%234298B8?style=for-the-badge&logo=groovy&logoColor=white)<br>
 ![Sonatype Nexus Badge](https://img.shields.io/badge/Sonatype%20Nexus-black?style=for-the-badge&logo=nexus&logoColor=white)<br>
 
-<span style="color:darkyellow">Dependencies:</span>
-
+<b>Dependencies</b>
 vprofile-java-project:  
 jenkins-shared-libraries:
 ngrok(required for GIT POLL)
 Docker Image: jenkins, nexus, sonarqube
 
-Installation:
+<b>Installation:</b>
 Jenkins: docker run -p 8080:8080 -p 50000:50000 -v /home/jkb91/Documents/jenkins_docs:/var/jenkins_home jenkins/jenkins:lts
 Sonarqube: 
 Nexus: 
