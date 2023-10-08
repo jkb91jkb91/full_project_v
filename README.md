@@ -34,16 +34,11 @@ docker-compose up -d  <br>
 
 <br>
 <b>Preparation</b> <br>
-Jenkins <br>
 - Add slave agent( do not run on master)
 - Install Plugin Slack
 - Install Plugin SonarQube Scanner<br>
 - Install Plugin Nexus Artifact Uploader
 
-
-
-Author:Jakub Grzegorczyk <br>
-Email: jakub.g26101991@gmail.com <br>
 
 
 Detailed steps <br>
@@ -52,3 +47,10 @@ Detailed steps <br>
 - Jenkins Configure   Sonar (http://sonar:9000/ : "sonar" is the name used in docker-compose, - sonarToken_<br>
 - Jenkins Configure   Nexus
 - Jenkins Configure   "Global Pipeline Libraries"
+
+
+
+
+
+Author:Jakub Grzegorczyk <br>
+Email: jakub.g26101991@gmail.com <br>
