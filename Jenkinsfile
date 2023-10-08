@@ -63,6 +63,13 @@ pipeline {
  //           }
  //       }
 
+        stage('Send to ') {
+              script {
+                 sh 'echo somethin'
+          }
+     }
+    
+
         stage('Upload Artifacts') {
             steps {
                 script {
