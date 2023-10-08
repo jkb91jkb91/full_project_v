@@ -12,8 +12,8 @@ Stack<br>
 <br>
 <b>Dependencies</b> <br>
 Repositories <br>
--vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
--jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
+- vprofile-java-project:    https://github.com/jkb91jkb91/vprofile-project BRANCH:vp-rem   <br>
+- jenkins-shared-libraries: https://github.com/jkb91jkb91/jenkins_repo.git BRANCH:shared_libraries   <br>
 <br>
 Installation <br>
 -ngrok isntalled (required for GIT POLL)  <br>
