@@ -42,11 +42,12 @@ docker-compose up -d  <br>
 
 
 Detailed steps <br>
-- start ngrok http 8080 <br>
+- Start ngrok http 8080 <br>
 - Jenkins Credentials github keys to credentials <br>
 - Jenkins Configure   Sonar (http://sonar:9000/ : "sonar" is the name used in docker-compose, - sonarToken_<br>
 - Jenkins Configure   Nexus
-- Jenkins Configure   "Global Pipeline Libraries"
+- Jenkins Configure   Global Pipeline Libraries
+- Jenkins Configure   Slack
 
 
 
