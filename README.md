@@ -1,7 +1,9 @@
 **LIFT AND SHIFT PROJECT**
 
 
-**HOW THIS APP WORKS**  
+
+
+**HOW THIS APP WORKS**
 1) Users requests APP by URL with HTTPS based by ACM
 2) Request goes into ELB  
 3) ELB routes traffic through port 8080 to TOMCAT instance(8080 is only allowed from Tomcat EC2 internally to ELB)  
