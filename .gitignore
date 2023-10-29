@@ -1,0 +1,8 @@
+     Dockerfile.jenkins
+        Dockerfile.sonarqube
+        docker-compose.yml
+        jenkins_config/
+        nexus_data/
+
+        sonar_config/
+
