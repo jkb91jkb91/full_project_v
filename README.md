@@ -26,7 +26,7 @@
 -ELB
 -Cloudformation
 
-**OUR BASE APP** 
+**OUR BASE APP**  
 -TOMCAT on 1 VM   >> will go on EC2  
 -RabbitMQ on 1VM  >> will go on EC2  
 -Memcache on 1VM  >> will go on EC2  
