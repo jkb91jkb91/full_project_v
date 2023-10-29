@@ -11,7 +11,7 @@
 5) Backend services are in different Security Group  
 7) Backend services uses internal DNS zone on ROUTE53 to route traffic  
 
-**PREREQUISUITES**
+**PREREQUISUITES**  
 -Maven 3. and Java11 installed locally  
 -Locally prepared application ready to build with maven  
 -Scripts for Tomcat,MySQL,MemCached,RabbitMQ
