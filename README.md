@@ -11,7 +11,10 @@
 5) Backend services are in different Security Group  
 7) Backend services uses internal DNS zone on ROUTE53 to route traffic  
 
-**PREREQUISUITES**  
+**PREREQUISUITES**
+-Maven 3. and Java11 installed locally  
+-Locally prepared application ready to build with maven  
+-Scripts for Tomcat,MySQL,MemCached,RabbitMQ
 -Created certificate for HTTPS > ACM  
 -Installed AWS CLI locally for S3 bucket connection  
 -Domain bought on GoDaddy.com (devopsproject.pl)  
@@ -32,3 +35,17 @@
 -Memcache on 1VM  >> will go on EC2  (backend SG)  
 -MySQL    on 1 VM >> will go on EC2  (backend SG)  
   
+
+
+**STEPS** 
+- CREATE KEY-PARIS for connection with all EC2 instances  
+- CREATE SECURITY GROUPS  (frontend, backend, loadbalancer)
+- Create EC2 instances with provided scripts in this repo
+- Configure ROUTE53  with internal DNS ZONE  
+   in application properties > provide domains for mysql,memcached,rabbitmq and save the file
+-Build the app with maven and upload S3 bucket
+
+
+  
+
+-
