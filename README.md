@@ -27,8 +27,8 @@
 -Cloudformation
 
 **OUR BASE APP**  
--TOMCAT on 1 VM   >> will go on EC2  
--RabbitMQ on 1VM  >> will go on EC2  
--Memcache on 1VM  >> will go on EC2  
--MySQL    on 1 VM >> will go on EC2  
--NGINX    on 1 VM >> used ELB instead of NGINX  
+-TOMCAT on 1 VM   >> will go on EC2  together with LA (ELB instead of NGINX will be used) (frontend SG)  
+-RabbitMQ on 1VM  >> will go on EC2  (backend SG)  
+-Memcache on 1VM  >> will go on EC2  (backend SG)  
+-MySQL    on 1 VM >> will go on EC2  (backend SG)  
+  
